@@ -25,6 +25,16 @@ export default function RootLayout({
       <body className={inter.variable}>
         {children}
         <HotToaster />
+        <main>
+          <nav>
+            <link href="/">
+              Home
+            </link>
+            <link href="/Podcasts">
+              Podcasts
+            </link>
+          </nav>
+        </main>
       </body>
     </html>
   )
