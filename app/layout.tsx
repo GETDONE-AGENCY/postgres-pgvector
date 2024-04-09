@@ -26,14 +26,14 @@ export default function RootLayout({
         {children}
         <HotToaster />
         <main>
-          <nav>
+          {/* <nav>
             <link href="/">
               Home
             </link>
             <link href="/Podcasts">
               Podcasts
             </link>
-          </nav>
+          </nav> */}
         </main>
       </body>
     </html>
